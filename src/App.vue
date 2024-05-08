@@ -8,7 +8,7 @@
 // }
 
 const a = () => {
-  console.log("hhahahahah");
+  console.log('hhahahahah');
 };
 
 a();

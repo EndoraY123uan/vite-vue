@@ -11,7 +11,8 @@
     "eslint:fix": "eslint src --fix",
     "lint:prettier": "prettier src",
     "prettier:fix": "prettier --write src/",
-    "prepare": "husky"
+    "prepare": "husky",
+    "commitlint": "commitlint --config commitlint.config.cjs -e -V"
   },
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
@@ -20,6 +21,8 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@eslint/js": "^9.2.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^9.2.0",
