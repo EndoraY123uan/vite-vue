@@ -1,4 +1,3 @@
-#!/usr/bin/env sh
-. "${0%/*}/h"
-
-yarn commitlint
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+npm run commitlint
