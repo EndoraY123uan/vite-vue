@@ -10,7 +10,8 @@
     "lint:eslint": "eslint src",
     "eslint:fix": "eslint src --fix",
     "lint:prettier": "prettier src",
-    "prettier:fix": "prettier --write src/"
+    "prettier:fix": "prettier --write src/",
+    "prepare": "husky"
   },
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
